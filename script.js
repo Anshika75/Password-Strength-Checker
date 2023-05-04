@@ -57,7 +57,7 @@ const control = document.querySelector(".control");
              if(opt==1){
                weak.classList.add("active");
                text.style.display = "block";
-               text.textContent = "Your password strength is too week";
+               text.textContent = "Your password strength is too weak";
                text.classList.add("weak");
              }
              if(opt==2){
